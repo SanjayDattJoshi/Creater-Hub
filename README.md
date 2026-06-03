@@ -5,7 +5,6 @@ A full-stack **Creator & Brand Marketplace** built with React, Node.js, Express,
 ---
 
 # Images – 
-<img width="515" height="343" alt="Screenshot 2026-06-03 112511" src="https://github.com/user-attachments/assets/b92ae1b6-779a-44ff-9d49-f9e8db1a8412" />
 
 <img width="867" height="904" alt="image" src="https://github.com/user-attachments/assets/b49e2bc7-9088-4200-8888-264e0bd7b65c" />
 
