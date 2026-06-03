@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Creator Marketplace – Connect creators and brands. Find campaigns, grow your audience, and shop creator-tagged products." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>CreatorHub – Where Creators Meet Brands</title>
+    <!-- Tailwind CSS via CDN (bypasses PostCSS) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                50:  '#f0f4ff',
+                100: '#e0e9ff',
+                200: '#c7d7fe',
+                300: '#a5b9fc',
+                400: '#8b97f8',
+                500: '#7c6fef',
+                600: '#6d52e3',
+                700: '#5d40c9',
+                800: '#4c35a3',
+                900: '#3f2f81',
+              },
+              accent: {
+                400: '#f472b6',
+                500: '#ec4899',
+                600: '#db2777',
+              },
+              dark: {
+                500: '#2a2a3e',
+                600: '#222236',
+                700: '#1a1a2e',
+                800: '#13131f',
+                900: '#0a0a14',
+              },
+              surface: {
+                800: '#0f0f1a',
+                850: '#13131f',
+                900: '#0a0a14',
+              },
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
